@@ -5,6 +5,9 @@
 # @File    : run.py.py
 # @Software: PyCharm
 
+import sys
+sys.path.append('./') # project根目录
+
 import unittest
 from API_8.testcases import test_login
 from API_8.testcases import test_permission
